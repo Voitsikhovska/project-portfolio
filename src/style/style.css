@@ -14,25 +14,36 @@ sans-serif;*/
     --head-font-family: 'Playfair Display', serif;
 }
 
-h1 {
-    color: black;
-    font-family: var(--head-font-family);
-    font-size: 96px;
-}
-
+h1,
 h2 {
     color: black;
     font-family: var(--head-font-family);
     font-weight: bold;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+.hero h2 {
     font-size: 36px;
 }
 
-
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+}
 
 .hero {
     background-color: var(--background-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 190px 30px;
 }
 
 .hero p {
@@ -59,4 +70,38 @@ h2 {
     padding: 18px 30px;
     line-height: 27px;
     font-size: 18px;
+}
+
+.btn-branding-outline {
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--branding-color);
+    padding: 18px 30px;
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.project-details {
+    padding: 120px 61px;
+}
+
+@media(max-width:900px) {
+    h1 {
+        font-size: 45px;
+        line-height: 2;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .project-details {
+        padding: 0;
+        text-align: center;
+    }
 }
