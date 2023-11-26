@@ -32,7 +32,7 @@ h2 {
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -40,17 +40,23 @@ h4 {
     font-size: 36px;
 }
 
+a {
+    font-family: var(--defoult-font-family);
+}
+
 p {
+    font-family: var(--defoult-font-family);
     font-size: 16px;
     font-weight: normal;
     line-height: 30px;
+
 }
 
 
 .hero {
     background-color: var(--background-color);
     text-align: center;
-    padding: 190px 30px;
+    padding: 80px 30px;
 }
 
 .hero p {
@@ -90,7 +96,7 @@ p {
 }
 
 .content-container {
-    padding: 100px 20px;
+    padding: 60px 20px;
 }
 
 .content h1 {
@@ -161,6 +167,8 @@ nav li {
 }
 
 nav a {
+    font-family: var(--defoult-font-family);
+    font-weight: 1;
     text-decoration: none;
     color: #272142;
     transition: all 100ms ease-in-out;
@@ -220,7 +228,7 @@ footer .social-links a:hover {
         font-size: 44px;
     }
 
-    h4 {
+    h3 {
         font-size: 26px;
     }
 

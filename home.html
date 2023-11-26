@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Daryna is a front-end developer based in Lviv"
+    />
+    <title>Front-end developer - Daryna Voitsikhovska</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
@@ -29,32 +34,34 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style/style.css" />
-
-    <title>Portfolio</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="src/img/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/home.html" title="Homepage">
+          <img
+            src="src/img/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
           <img
             src="src/img/logo-small.jpg"
             class="logo d-block d-md-none"
-            alt=""
+            alt="logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Daryna"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Workpage"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contactpage"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -62,19 +69,23 @@
     <div class="hero">
       <p>👋 Hello, I'm</p>
       <h1>Daryna Voitsikhovska</h1>
-      <h2 class="mb-5">Front-end developer based in Lviv</h2>
+      <h2 class="mb-5">Front-end developer, based in Lviv</h2>
 
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
-    <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
-    </p>
+    <p class="text-center m-5">Check out some of my featured projects below</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="src/img/yougurt.png" class="img-fluid" alt="yogurt" />
+          <img
+            src="src/img/yougurt.png"
+            class="img-fluid"
+            alt="Yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-details">
@@ -86,7 +97,7 @@
               large language ocean. A small river named Duden flows by
             </p>
             <div>
-              <a href="#" class="btn btn-branding-outline"
+              <a href="/work.html" class="btn btn-branding-outline"
                 >View project details</a
               >
             </div>
@@ -104,19 +115,27 @@
               large language ocean. A small river named Duden flows by
             </p>
             <div>
-              <a href="#" class="btn btn-branding-outline"
+              <a href="/work.html" class="btn btn-branding-outline"
                 >View project details</a
               >
             </div>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="src/img/weather.png" class="img-fluid" alt="yogurt" />
+          <img
+            src="src/img/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="src/img/dictionary.png" class="img-fluid" alt="yogurt" />
+          <img
+            src="src/img/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary project preview"
+          />
         </div>
         <div class="col">
           <div class="project-details">
@@ -128,7 +147,7 @@
               large language ocean. A small river named Duden flows by
             </p>
             <div>
-              <a href="#" class="btn btn-branding-outline"
+              <a href="/work.html" class="btn btn-branding-outline"
                 >View project details</a
               >
             </div>
@@ -136,32 +155,61 @@
         </div>
       </div>
 
-      <footer>
+      <footer class="container">
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me </a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact me"
+            >
+              Contact me
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:daravojka505@gmail.com" class="email-link"
+          <a
+            href="mailto:daravojka505@gmail.com"
+            class="email-link"
+            title="Email Daryna"
             >daravojka505@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/Voitsikhovska" target="_blank">
+          <a
+            href="https://github.com/Voitsikhovska"
+            target="_blank"
+            title="GitHub Profile"
+          >
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/v._daryna" target="_blank">
+          <a
+            href="https://www.instagram.com/v._daryna"
+            target="_blank"
+            title="Instagram Profile"
+          >
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://t.me/vdarynka" target="_blank">
+          <a
+            href="https://t.me/vdarynka"
+            target="_blank"
+            title="Telegram Profile"
+          >
             <i class="fab fa-telegram"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          😋 This project was coded by Daryna and it is
+          <a
+            href="https://github.com/Voitsikhovska/project-portfolio.git"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
