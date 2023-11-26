@@ -15,7 +15,9 @@ sans-serif;*/
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4 {
     color: black;
     font-family: var(--head-font-family);
     font-weight: bold;
@@ -28,6 +30,10 @@ h1 {
 
 h2 {
     font-size: 64px;
+}
+
+h4 {
+    font-size: 48px;
 }
 
 .hero h2 {
@@ -165,14 +171,57 @@ nav li.active a {
     color: var(--branding-color);
 }
 
+footer {
+    margin: 60px 0;
+}
+
+footer .contact-box {
+    background: var(--background-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+}
+
 @media(max-width:900px) {
     h1 {
         font-size: 45px;
-        line-height: 2;
+        line-height: 1.5;
     }
 
     h2 {
         font-size: 44px;
+    }
+
+    h4 {
+        font-size: 26px;
     }
 
     .hero {
